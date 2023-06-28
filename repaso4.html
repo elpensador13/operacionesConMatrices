@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentoperaciones aritmeticas</title>
+</head>
+<body>
+    <header>
+    <h1>Bien venido a las operaciones aritmeticas</h1>
+</header>
+<main>
+<p>Utiliza los siguientes campos de formulario para ingresar valores númericos y selecciona el botón correspondiente a la operación que quieres realizar.</p>
+<div>
+    <form id="formulario" name="suma" action="" method="post">
+    <div>
+    <label for="n1">Escribe un número:</label>  
+    <input type="number" name="n1" id="n1" min="0" max="1000000" step="0.1" required>
+    </div>
+    <div>
+      <label for="n2">Escribe un número:</label>
+      <input type="number" name="n2" id="n2" min="0" max="1000000" step="0.1" required>
+      </div>
+    </form>    
+      <div>
+      <button id="botons">Sumar</button>
+      <button id="botonr">Restar</button>
+      <button id="botonm">Multiplicar</button>
+      <button id="botond">Dividir</button>
+    </div>
+    <div>
+    <button id="boton1">Agregar campo</button> 
+    </div>
+    <div>
+      <button id="boton3">Borrar</button>
+      </div>
+    <div id="desaparece">
+      <div id="result">
+      <ul>
+    
+      </ul>
+    </div>
+    <div id="result1">
+      <p id="pResultado"></p>  
+    </dir>
+    </div>
+    </div>
+    </main>
+    <footer>
+        <p>Desarrollado por Francisco Fuentes.</p>
+        <p>Todos los derechos reservados.</p>
+        </footer>
+<script src="repaso4.js"></script>
+    </body>
+</html>
